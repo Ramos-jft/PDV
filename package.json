@@ -1,0 +1,48 @@
+{
+  "name": "pdv",
+  "version": "1.0.0",
+  "description": "Projeto de uma API RESTful utilizando Banco de Dados PostgreSQL, com funções CRUD.",
+  "main": "index.js",
+  "engines": {
+    "node": "20.x"
+  },
+  "scripts": {
+    "dev": "nodemon ./src/index.js",
+    "start": "node ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ramos-jft/PDV.git"
+  },
+  "keywords": [
+    "pdv",
+    "caixa",
+    "financas",
+    "finanças",
+    "ponto_de_vendas"
+  ],
+  "author": "Lucas Brunelli Ramos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ramos-jft/PDV/issues"
+  },
+  "homepage": "https://github.com/Ramos-jft/PDV#readme",
+  "dependencies": {
+    "aws-sdk": "^2.1687.0",
+    "bcrypt": "^5.1.1",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "fs": "^0.0.1-security",
+    "handlebars": "^4.7.8",
+    "joi": "^17.13.3",
+    "jsonwebtoken": "^9.0.2",
+    "knex": "^3.1.0",
+    "multer": "^1.4.5-lts.1",
+    "nodemailer": "^6.9.14",
+    "pg": "^8.12.0",
+    "uuid": "^10.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
